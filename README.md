@@ -1,4 +1,6 @@
 # NLP-QnA
+![](https://github.com/Mimimkh/NLP-QnA/blob/master/QnA1.JPG)
+
 ### 1) Data Wrangling
 
 ```
@@ -7,8 +9,9 @@ converted the datasets to a list of dictionaries, where each dictionary has thre
 ‘document’, ’question’ and ‘answer’.
 Values of these dictionaries are a tokenized list.
 e.g. first row of train dataset has been converted to below-
-```
-```
+
+![](https://github.com/Mimimkh/NLP-QnA/blob/master/QnA2.JPG)
+
 We have used TreebankWordTokenizer to tokenize the sentences.
 ```
 
@@ -96,13 +99,11 @@ with above mentioned tokens.
 
 ## Section B: Results and Discussions
 
-Table 1 a: Classification report after using word embedding along with all the 5 extracted
-features from documents
+![](https://github.com/Mimimkh/NLP-QnA/blob/master/qna3.JPG)
 
-Table 1b: Classification report after not using tf-idf feature
+![](https://github.com/Mimimkh/NLP-QnA/blob/master/qna4.JPG)
 
-
-Table 1c: Classification report after not using dependency parsing
+![](https://github.com/Mimimkh/NLP-QnA/blob/master/qna5.JPG)
 
 I tried other combinations as well, but they didn’t provide better prediction.
 
