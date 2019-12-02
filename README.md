@@ -74,7 +74,6 @@ performed below steps sequentially to build the sequence model.
 - Created sequential models with embedding layer of each feature with below
     properties-
 
-
 ```
 i) Input dimension- feature vocabulary size
 ii) Weights – list of values of the feature
